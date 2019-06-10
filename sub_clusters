@@ -1,1337 +1,421 @@
+Print clusters
+1
+val nclusters = clique_cl.getAllClusters.size()
+2
+var size_cl = 0
+3
+//println("Number of cluster:",nclusters)
+4
+for (clusterID <- 0 until nclusters){
+5
+  val cl = clique_cl.getAllClusters.get(clusterID)
+6
+  //println(DBIDUtil.toString(cl.getIDs()))
+7
+  size_cl += cl.getIDs().size
+8
+  println("C")
+9
+  println(cl.getModel().getSubspace())
+10
+  
+11
+  //println(cl.getModel.getPrototype())
+12
+  //println(cl.getIDs().size)  
+13
+}
+14
+​
 C
 Dimensions: [8]
-Coverage: 407440
+Coverage: 292188
 Units: 
-   d8-[0.00; 0.01[    407440 objects
+   d8-[0.00; 0.01[    292188 objects
+
+C
+Dimensions: [5]
+Coverage: 68186
+Units: 
+   d5-[0.99; 1.01[    68186 objects
+
+C
+Dimensions: [5]
+Coverage: 28208
+Units: 
+   d5-[2.00; 2.01[    28208 objects
+
+C
+Dimensions: [2]
+Coverage: 200902
+Units: 
+   d2-[0.00; 0.17[    200902 objects
+
+C
+Dimensions: [2]
+Coverage: 69467
+Units: 
+   d2-[0.86; 1.04[    69467 objects
+
+C
+Dimensions: [2]
+Coverage: 32180
+Units: 
+   d2-[1.90; 2.08[    32180 objects
+
+C
+Dimensions: [2]
+Coverage: 27496
+Units: 
+   d2-[2.94; 3.11[    27496 objects
+
+C
+Dimensions: [2]
+Coverage: 34915
+Units: 
+   d2-[3.98; 4.15[    34915 objects
+
+C
+Dimensions: [2]
+Coverage: 31269
+Units: 
+   d2-[4.84; 5.02[    31269 objects
+
+C
+Dimensions: [2]
+Coverage: 28376
+Units: 
+   d2-[5.88; 6.05[    28376 objects
+
+C
+Dimensions: [9]
+Coverage: 174254
+Units: 
+   d9-[0.00; 0.08[    174254 objects
+
+C
+Dimensions: [8]
+Coverage: 186406
+Units: 
+   d8-[0.99; 1.00[    186406 objects
+
+C
+Dimensions: [9]
+Coverage: 103883
+Units: 
+   d9-[0.98; 1.06[    103883 objects
+
+C
+Dimensions: [9]
+Coverage: 34325
+Units: 
+   d9-[1.96; 2.04[    34325 objects
+
+C
+Dimensions: [9]
+Coverage: 33992
+Units: 
+   d9-[2.94; 3.02[    33992 objects
+
+C
+Dimensions: [9]
+Coverage: 36704
+Units: 
+   d9-[3.92; 4.00[    36704 objects
+
+C
+Dimensions: [9]
+Coverage: 31372
+Units: 
+   d9-[4.98; 5.06[    31372 objects
+
+C
+Dimensions: [3, 8]
+Coverage: 231229
+Units: 
+   d3-[0.00; 0.01[ d8-[0.00; 0.01[    231229 objects
+
+C
+Dimensions: [3, 8]
+Coverage: 130449
+Units: 
+   d3-[0.00; 0.01[ d8-[0.99; 1.00[    130449 objects
+
+C
+Dimensions: [3, 8]
+Coverage: 29667
+Units: 
+   d3-[0.00; 0.01[ d8-[1.99; 2.00[    29667 objects
+
+C
+Dimensions: [3, 8]
+Coverage: 59638
+Units: 
+   d3-[0.99; 1.00[ d8-[0.00; 0.01[    59638 objects
+
+C
+Dimensions: [3, 8]
+Coverage: 54881
+Units: 
+   d3-[0.99; 1.00[ d8-[0.99; 1.00[    54881 objects
+
+C
+Dimensions: [8]
+Coverage: 45903
+Units: 
+   d8-[1.99; 2.00[    45903 objects
+
+C
+Dimensions: [3, 4]
+Coverage: 208251
+Units: 
+   d3-[0.00; 0.01[ d4-[0.00; 0.07[    208251 objects
+
+C
+Dimensions: [3, 4]
+Coverage: 133450
+Units: 
+   d3-[0.00; 0.01[ d4-[0.97; 1.04[    133450 objects
+
+C
+Dimensions: [3, 4]
+Coverage: 35508
+Units: 
+   d3-[0.00; 0.01[ d4-[1.94; 2.01[    35508 objects
+
+C
+Dimensions: [3, 4]
+Coverage: 115801
+Units: 
+   d3-[0.99; 1.00[ d4-[0.00; 0.07[    115801 objects
+
+C
+Dimensions: [4, 8]
+Coverage: 173323
+Units: 
+   d4-[0.00; 0.07[ d8-[0.00; 0.01[    173323 objects
+
+C
+Dimensions: [4, 8]
+Coverage: 115108
+Units: 
+   d4-[0.00; 0.07[ d8-[0.99; 1.00[    115108 objects
+
+C
+Dimensions: [4, 8]
+Coverage: 35621
+Units: 
+   d4-[0.00; 0.07[ d8-[1.99; 2.00[    35621 objects
+
+C
+Dimensions: [4, 8]
+Coverage: 91058
+Units: 
+   d4-[0.97; 1.04[ d8-[0.00; 0.01[    91058 objects
+
+C
+Dimensions: [4, 8]
+Coverage: 45695
+Units: 
+   d4-[0.97; 1.04[ d8-[0.99; 1.00[    45695 objects
+
+C
+Dimensions: [3, 5]
+Coverage: 303566
+Units: 
+   d3-[0.00; 0.01[ d5-[0.00; 0.02[    303566 objects
 
 C
 Dimensions: [3]
-Coverage: 239013
+Coverage: 391345
 Units: 
-   d3-[0.99; 1.00[    239013 objects
-
-C
-Dimensions: [8, 9]
-Coverage: 21268
-Units: 
-   d8-[0.00; 0.01[ d9-[3.93; 4.01[    21268 objects
-
-C
-Dimensions: [8, 9]
-Coverage: 30537
-Units: 
-   d8-[0.00; 0.01[ d9-[4.95; 5.03[    30537 objects
-
-C
-Dimensions: [8, 9]
-Coverage: 12527
-Units: 
-   d8-[0.00; 0.01[ d9-[5.97; 6.05[    12527 objects
-
-C
-Dimensions: [8, 9]
-Coverage: 9428
-Units: 
-   d8-[0.00; 0.01[ d9-[9.98; 10.06[    9428 objects
-
-C
-Dimensions: [8, 9]
-Coverage: 73785
-Units: 
-   d8-[0.99; 1.00[ d9-[0.00; 0.08[    73785 objects
-
-C
-Dimensions: [8, 9]
-Coverage: 56383
-Units: 
-   d8-[0.99; 1.00[ d9-[0.94; 1.02[    56383 objects
-
-C
-Dimensions: [8, 9]
-Coverage: 32682
-Units: 
-   d8-[0.99; 1.00[ d9-[1.97; 2.04[    32682 objects
-
-C
-Dimensions: [8, 9]
-Coverage: 29245
-Units: 
-   d8-[0.99; 1.00[ d9-[2.99; 3.07[    29245 objects
-
-C
-Dimensions: [8, 9]
-Coverage: 29529
-Units: 
-   d8-[0.99; 1.00[ d9-[3.93; 4.01[    29529 objects
-
-C
-Dimensions: [8, 9]
-Coverage: 20828
-Units: 
-   d8-[0.99; 1.00[ d9-[4.95; 5.03[    20828 objects
-
-C
-Dimensions: [9]
-Coverage: 264709
-Units: 
-   d9-[0.00; 0.08[    264709 objects
-
-C
-Dimensions: [8, 9]
-Coverage: 14331
-Units: 
-   d8-[0.99; 1.00[ d9-[5.97; 6.05[    14331 objects
-
-C
-Dimensions: [8, 9]
-Coverage: 10871
-Units: 
-   d8-[0.99; 1.00[ d9-[7.00; 7.08[    10871 objects
-
-C
-Dimensions: [8, 9]
-Coverage: 11533
-Units: 
-   d8-[0.99; 1.00[ d9-[7.94; 8.02[    11533 objects
-
-C
-Dimensions: [8, 9]
-Coverage: 8834
-Units: 
-   d8-[0.99; 1.00[ d9-[8.96; 9.04[    8834 objects
-
-C
-Dimensions: [8, 9]
-Coverage: 12268
-Units: 
-   d8-[0.99; 1.00[ d9-[11.95; 12.03[    12268 objects
-
-C
-Dimensions: [8, 9]
-Coverage: 8936
-Units: 
-   d8-[0.99; 1.00[ d9-[12.97; 13.05[    8936 objects
-
-C
-Dimensions: [8, 9]
-Coverage: 31945
-Units: 
-   d8-[1.99; 2.00[ d9-[0.00; 0.08[    31945 objects
-
-C
-Dimensions: [8, 9]
-Coverage: 16632
-Units: 
-   d8-[1.99; 2.00[ d9-[0.94; 1.02[    16632 objects
-
-C
-Dimensions: [5, 9]
-Coverage: 197102
-Units: 
-   d5-[0.00; 0.02[ d9-[0.00; 0.08[    197102 objects
-
-C
-Dimensions: [5, 9]
-Coverage: 119873
-Units: 
-   d5-[0.00; 0.02[ d9-[0.94; 1.02[    119873 objects
-
-C
-Dimensions: [9]
-Coverage: 163845
-Units: 
-   d9-[0.94; 1.02[    163845 objects
-
-C
-Dimensions: [5, 9]
-Coverage: 44373
-Units: 
-   d5-[0.00; 0.02[ d9-[1.97; 2.04[    44373 objects
-
-C
-Dimensions: [5, 9]
-Coverage: 41925
-Units: 
-   d5-[0.00; 0.02[ d9-[2.99; 3.07[    41925 objects
-
-C
-Dimensions: [5, 9]
-Coverage: 40433
-Units: 
-   d5-[0.00; 0.02[ d9-[3.93; 4.01[    40433 objects
-
-C
-Dimensions: [5, 9]
-Coverage: 38007
-Units: 
-   d5-[0.00; 0.02[ d9-[4.95; 5.03[    38007 objects
-
-C
-Dimensions: [5, 9]
-Coverage: 20461
-Units: 
-   d5-[0.00; 0.02[ d9-[5.97; 6.05[    20461 objects
-
-C
-Dimensions: [5, 9]
-Coverage: 14146
-Units: 
-   d5-[0.00; 0.02[ d9-[7.00; 7.08[    14146 objects
-
-C
-Dimensions: [5, 9]
-Coverage: 13329
-Units: 
-   d5-[0.00; 0.02[ d9-[7.94; 8.02[    13329 objects
-
-C
-Dimensions: [5, 9]
-Coverage: 11318
-Units: 
-   d5-[0.00; 0.02[ d9-[8.96; 9.04[    11318 objects
-
-C
-Dimensions: [5, 9]
-Coverage: 10514
-Units: 
-   d5-[0.00; 0.02[ d9-[9.98; 10.06[    10514 objects
-
-C
-Dimensions: [5, 9]
-Coverage: 9348
-Units: 
-   d5-[0.00; 0.02[ d9-[10.93; 11.01[    9348 objects
-
-C
-Dimensions: [9]
-Coverage: 60797
-Units: 
-   d9-[1.97; 2.04[    60797 objects
-
-C
-Dimensions: [5, 9]
-Coverage: 9233
-Units: 
-   d5-[0.00; 0.02[ d9-[11.95; 12.03[    9233 objects
-
-C
-Dimensions: [5, 9]
-Coverage: 39639
-Units: 
-   d5-[0.99; 1.01[ d9-[0.00; 0.08[    39639 objects
-
-C
-Dimensions: [5, 9]
-Coverage: 27050
-Units: 
-   d5-[0.99; 1.01[ d9-[0.94; 1.02[    27050 objects
-
-C
-Dimensions: [5, 9]
-Coverage: 10247
-Units: 
-   d5-[0.99; 1.01[ d9-[1.97; 2.04[    10247 objects
-
-C
-Dimensions: [5, 9]
-Coverage: 8238
-Units: 
-   d5-[0.99; 1.01[ d9-[3.93; 4.01[    8238 objects
-
-C
-Dimensions: [5, 9]
-Coverage: 8636
-Units: 
-   d5-[0.99; 1.01[ d9-[4.95; 5.03[    8636 objects
-
-C
-Dimensions: [5, 9]
-Coverage: 13678
-Units: 
-   d5-[2.00; 2.01[ d9-[0.00; 0.08[    13678 objects
-
-C
-Dimensions: [5, 9]
-Coverage: 10802
-Units: 
-   d5-[2.99; 3.00[ d9-[0.00; 0.08[    10802 objects
-
-C
-Dimensions: [4, 9]
-Coverage: 160735
-Units: 
-   d4-[0.00; 0.08[ d9-[0.00; 0.08[    160735 objects
-
-C
-Dimensions: [4, 9]
-Coverage: 95657
-Units: 
-   d4-[0.00; 0.08[ d9-[0.94; 1.02[    95657 objects
-
-C
-Dimensions: [9]
-Coverage: 55130
-Units: 
-   d9-[2.99; 3.07[    55130 objects
-
-C
-Dimensions: [4, 9]
-Coverage: 43346
-Units: 
-   d4-[0.00; 0.08[ d9-[1.97; 2.04[    43346 objects
-
-C
-Dimensions: [4, 9]
-Coverage: 44369
-Units: 
-   d4-[0.00; 0.08[ d9-[2.99; 3.07[    44369 objects
-
-C
-Dimensions: [4, 9]
-Coverage: 30778
-Units: 
-   d4-[0.00; 0.08[ d9-[3.93; 4.01[    30778 objects
-
-C
-Dimensions: [4, 9]
-Coverage: 31606
-Units: 
-   d4-[0.00; 0.08[ d9-[4.95; 5.03[    31606 objects
-
-C
-Dimensions: [4, 9]
-Coverage: 18603
-Units: 
-   d4-[0.00; 0.08[ d9-[5.97; 6.05[    18603 objects
-
-C
-Dimensions: [4, 9]
-Coverage: 13564
-Units: 
-   d4-[0.00; 0.08[ d9-[7.00; 7.08[    13564 objects
-
-C
-Dimensions: [4, 9]
-Coverage: 12357
-Units: 
-   d4-[0.00; 0.08[ d9-[7.94; 8.02[    12357 objects
-
-C
-Dimensions: [4, 9]
-Coverage: 10573
-Units: 
-   d4-[0.00; 0.08[ d9-[8.96; 9.04[    10573 objects
-
-C
-Dimensions: [4, 9]
-Coverage: 10037
-Units: 
-   d4-[0.00; 0.08[ d9-[9.98; 10.06[    10037 objects
-
-C
-Dimensions: [4, 9]
-Coverage: 80207
-Units: 
-   d4-[0.93; 1.02[ d9-[0.00; 0.08[    80207 objects
-
-C
-Dimensions: [9]
-Coverage: 54839
-Units: 
-   d9-[3.93; 4.01[    54839 objects
-
-C
-Dimensions: [4, 9]
-Coverage: 41738
-Units: 
-   d4-[0.93; 1.02[ d9-[0.94; 1.02[    41738 objects
-
-C
-Dimensions: [4, 9]
-Coverage: 10715
-Units: 
-   d4-[0.93; 1.02[ d9-[1.97; 2.04[    10715 objects
-
-C
-Dimensions: [4, 9]
-Coverage: 13113
-Units: 
-   d4-[0.93; 1.02[ d9-[4.95; 5.03[    13113 objects
-
-C
-Dimensions: [4, 9]
-Coverage: 14600
-Units: 
-   d4-[1.95; 2.04[ d9-[0.00; 0.08[    14600 objects
-
-C
-Dimensions: [4, 9]
-Coverage: 18370
-Units: 
-   d4-[1.95; 2.04[ d9-[0.94; 1.02[    18370 objects
-
-C
-Dimensions: [4, 9]
-Coverage: 13415
-Units: 
-   d4-[1.95; 2.04[ d9-[3.93; 4.01[    13415 objects
-
-C
-Dimensions: [3, 5, 8]
-Coverage: 242956
-Units: 
-   d3-[0.00; 0.01[ d5-[0.00; 0.02[ d8-[0.00; 0.01[    242956 objects
-
-C
-Dimensions: [3, 5, 8]
-Coverage: 154615
-Units: 
-   d3-[0.00; 0.01[ d5-[0.00; 0.02[ d8-[0.99; 1.00[    154615 objects
-
-C
-Dimensions: [3, 5, 8]
-Coverage: 28515
-Units: 
-   d3-[0.00; 0.01[ d5-[0.00; 0.02[ d8-[1.99; 2.00[    28515 objects
-
-C
-Dimensions: [3, 5, 8]
-Coverage: 43098
-Units: 
-   d3-[0.00; 0.01[ d5-[0.99; 1.01[ d8-[0.00; 0.01[    43098 objects
-
-C
-Dimensions: [9]
-Coverage: 52309
-Units: 
-   d9-[4.95; 5.03[    52309 objects
-
-C
-Dimensions: [3, 5, 8]
-Coverage: 36219
-Units: 
-   d3-[0.00; 0.01[ d5-[0.99; 1.01[ d8-[0.99; 1.00[    36219 objects
-
-C
-Dimensions: [3, 5, 8]
-Coverage: 14871
-Units: 
-   d3-[0.00; 0.01[ d5-[2.00; 2.01[ d8-[0.00; 0.01[    14871 objects
-
-C
-Dimensions: [3, 5, 8]
-Coverage: 9285
-Units: 
-   d3-[0.00; 0.01[ d5-[2.00; 2.01[ d8-[0.99; 1.00[    9285 objects
-
-C
-Dimensions: [3, 5, 8]
-Coverage: 11059
-Units: 
-   d3-[0.00; 0.01[ d5-[2.99; 3.00[ d8-[0.00; 0.01[    11059 objects
-
-C
-Dimensions: [3, 5, 8]
-Coverage: 10473
-Units: 
-   d3-[0.00; 0.01[ d5-[2.99; 3.00[ d8-[0.99; 1.00[    10473 objects
-
-C
-Dimensions: [3, 5, 8]
-Coverage: 66894
-Units: 
-   d3-[0.99; 1.00[ d5-[0.00; 0.02[ d8-[0.00; 0.01[    66894 objects
-
-C
-Dimensions: [3, 5, 8]
-Coverage: 88823
-Units: 
-   d3-[0.99; 1.00[ d5-[0.00; 0.02[ d8-[0.99; 1.00[    88823 objects
-
-C
-Dimensions: [3, 5, 8]
-Coverage: 15893
-Units: 
-   d3-[0.99; 1.00[ d5-[0.00; 0.02[ d8-[1.99; 2.00[    15893 objects
-
-C
-Dimensions: [3, 5, 8]
-Coverage: 12881
-Units: 
-   d3-[0.99; 1.00[ d5-[0.99; 1.01[ d8-[0.00; 0.01[    12881 objects
-
-C
-Dimensions: [3, 5, 8]
-Coverage: 23355
-Units: 
-   d3-[0.99; 1.00[ d5-[0.99; 1.01[ d8-[0.99; 1.00[    23355 objects
-
-C
-Dimensions: [9]
-Coverage: 27003
-Units: 
-   d9-[5.97; 6.05[    27003 objects
-
-C
-Dimensions: [3, 4, 8]
-Coverage: 158482
-Units: 
-   d3-[0.00; 0.01[ d4-[0.00; 0.08[ d8-[0.00; 0.01[    158482 objects
-
-C
-Dimensions: [3, 4, 8]
-Coverage: 106752
-Units: 
-   d3-[0.00; 0.01[ d4-[0.00; 0.08[ d8-[0.99; 1.00[    106752 objects
-
-C
-Dimensions: [3, 4, 8]
-Coverage: 23864
-Units: 
-   d3-[0.00; 0.01[ d4-[0.00; 0.08[ d8-[1.99; 2.00[    23864 objects
-
-C
-Dimensions: [3, 4, 8]
-Coverage: 120855
-Units: 
-   d3-[0.00; 0.01[ d4-[0.93; 1.02[ d8-[0.00; 0.01[    120855 objects
-
-C
-Dimensions: [3, 4, 8]
-Coverage: 57274
-Units: 
-   d3-[0.00; 0.01[ d4-[0.93; 1.02[ d8-[0.99; 1.00[    57274 objects
-
-C
-Dimensions: [3, 4, 8]
-Coverage: 9131
-Units: 
-   d3-[0.00; 0.01[ d4-[0.93; 1.02[ d8-[1.99; 2.00[    9131 objects
-
-C
-Dimensions: [3, 4, 8]
-Coverage: 26169
-Units: 
-   d3-[0.00; 0.01[ d4-[1.95; 2.04[ d8-[0.00; 0.01[    26169 objects
-
-C
-Dimensions: [3, 4, 8]
-Coverage: 30587
-Units: 
-   d3-[0.00; 0.01[ d4-[1.95; 2.04[ d8-[0.99; 1.00[    30587 objects
-
-C
-Dimensions: [3, 4, 8]
-Coverage: 80294
-Units: 
-   d3-[0.99; 1.00[ d4-[0.00; 0.08[ d8-[0.00; 0.01[    80294 objects
-
-C
-Dimensions: [3, 4, 8]
-Coverage: 117586
-Units: 
-   d3-[0.99; 1.00[ d4-[0.00; 0.08[ d8-[0.99; 1.00[    117586 objects
-
-C
-Dimensions: [9]
-Coverage: 18552
-Units: 
-   d9-[7.00; 7.08[    18552 objects
-
-C
-Dimensions: [3, 4, 8]
-Coverage: 21098
-Units: 
-   d3-[0.99; 1.00[ d4-[0.00; 0.08[ d8-[1.99; 2.00[    21098 objects
-
-C
-Dimensions: [3, 4, 5]
-Coverage: 222155
-Units: 
-   d3-[0.00; 0.01[ d4-[0.00; 0.08[ d5-[0.00; 0.02[    222155 objects
-
-C
-Dimensions: [3, 4, 5]
-Coverage: 37907
-Units: 
-   d3-[0.00; 0.01[ d4-[0.00; 0.08[ d5-[0.99; 1.01[    37907 objects
-
-C
-Dimensions: [3, 4, 5]
-Coverage: 15524
-Units: 
-   d3-[0.00; 0.01[ d4-[0.00; 0.08[ d5-[2.00; 2.01[    15524 objects
-
-C
-Dimensions: [3, 4, 5]
-Coverage: 9300
-Units: 
-   d3-[0.00; 0.01[ d4-[0.00; 0.08[ d5-[2.99; 3.00[    9300 objects
-
-C
-Dimensions: [3, 4, 5]
-Coverage: 148428
-Units: 
-   d3-[0.00; 0.01[ d4-[0.93; 1.02[ d5-[0.00; 0.02[    148428 objects
-
-C
-Dimensions: [3, 4, 5]
-Coverage: 24832
-Units: 
-   d3-[0.00; 0.01[ d4-[0.93; 1.02[ d5-[0.99; 1.01[    24832 objects
-
-C
-Dimensions: [3, 4, 5]
-Coverage: 36217
-Units: 
-   d3-[0.00; 0.01[ d4-[1.95; 2.04[ d5-[0.00; 0.02[    36217 objects
-
-C
-Dimensions: [3, 4, 5]
-Coverage: 14168
-Units: 
-   d3-[0.00; 0.01[ d4-[1.95; 2.04[ d5-[0.99; 1.01[    14168 objects
-
-C
-Dimensions: [3, 4, 5]
-Coverage: 157713
-Units: 
-   d3-[0.99; 1.00[ d4-[0.00; 0.08[ d5-[0.00; 0.02[    157713 objects
-
-C
-Dimensions: [9]
-Coverage: 17915
-Units: 
-   d9-[7.94; 8.02[    17915 objects
-
-C
-Dimensions: [3, 4, 5]
-Coverage: 36000
-Units: 
-   d3-[0.99; 1.00[ d4-[0.00; 0.08[ d5-[0.99; 1.01[    36000 objects
-
-C
-Dimensions: [3, 4, 5]
-Coverage: 12363
-Units: 
-   d3-[0.99; 1.00[ d4-[0.00; 0.08[ d5-[2.00; 2.01[    12363 objects
-
-C
-Dimensions: [3, 4, 5]
-Coverage: 10130
-Units: 
-   d3-[0.99; 1.00[ d4-[0.00; 0.08[ d5-[2.99; 3.00[    10130 objects
-
-C
-Dimensions: [4, 5, 8]
-Coverage: 182853
-Units: 
-   d4-[0.00; 0.08[ d5-[0.00; 0.02[ d8-[0.00; 0.01[    182853 objects
-
-C
-Dimensions: [4, 5, 8]
-Coverage: 162982
-Units: 
-   d4-[0.00; 0.08[ d5-[0.00; 0.02[ d8-[0.99; 1.00[    162982 objects
-
-C
-Dimensions: [4, 5, 8]
-Coverage: 34033
-Units: 
-   d4-[0.00; 0.08[ d5-[0.00; 0.02[ d8-[1.99; 2.00[    34033 objects
-
-C
-Dimensions: [4, 5, 8]
-Coverage: 31051
-Units: 
-   d4-[0.00; 0.08[ d5-[0.99; 1.01[ d8-[0.00; 0.01[    31051 objects
-
-C
-Dimensions: [4, 5, 8]
-Coverage: 36670
-Units: 
-   d4-[0.00; 0.08[ d5-[0.99; 1.01[ d8-[0.99; 1.00[    36670 objects
-
-C
-Dimensions: [4, 5, 8]
-Coverage: 13779
-Units: 
-   d4-[0.00; 0.08[ d5-[2.00; 2.01[ d8-[0.00; 0.01[    13779 objects
-
-C
-Dimensions: [4, 5, 8]
-Coverage: 11311
-Units: 
-   d4-[0.00; 0.08[ d5-[2.00; 2.01[ d8-[0.99; 1.00[    11311 objects
-
-C
-Dimensions: [8]
-Coverage: 342499
-Units: 
-   d8-[0.99; 1.00[    342499 objects
-
-C
-Dimensions: [9]
-Coverage: 15547
-Units: 
-   d9-[8.96; 9.04[    15547 objects
-
-C
-Dimensions: [4, 5, 8]
-Coverage: 10455
-Units: 
-   d4-[0.00; 0.08[ d5-[2.99; 3.00[ d8-[0.99; 1.00[    10455 objects
-
-C
-Dimensions: [4, 5, 8]
-Coverage: 101744
-Units: 
-   d4-[0.93; 1.02[ d5-[0.00; 0.02[ d8-[0.00; 0.01[    101744 objects
-
-C
-Dimensions: [4, 5, 8]
-Coverage: 48804
-Units: 
-   d4-[0.93; 1.02[ d5-[0.00; 0.02[ d8-[0.99; 1.00[    48804 objects
-
-C
-Dimensions: [4, 5, 8]
-Coverage: 16654
-Units: 
-   d4-[0.93; 1.02[ d5-[0.99; 1.01[ d8-[0.00; 0.01[    16654 objects
-
-C
-Dimensions: [4, 5, 8]
-Coverage: 8494
-Units: 
-   d4-[0.93; 1.02[ d5-[0.99; 1.01[ d8-[0.99; 1.00[    8494 objects
-
-C
-Dimensions: [4, 5, 8]
-Coverage: 16874
-Units: 
-   d4-[1.95; 2.04[ d5-[0.00; 0.02[ d8-[0.00; 0.01[    16874 objects
-
-C
-Dimensions: [4, 5, 8]
-Coverage: 19994
-Units: 
-   d4-[1.95; 2.04[ d5-[0.00; 0.02[ d8-[0.99; 1.00[    19994 objects
-
-C
-Dimensions: [4, 5, 8]
-Coverage: 8926
-Units: 
-   d4-[1.95; 2.04[ d5-[0.99; 1.01[ d8-[0.99; 1.00[    8926 objects
-
-C
-Dimensions: [3, 4, 5, 8]
-Coverage: 122967
-Units: 
-   d3-[0.00; 0.01[ d4-[0.00; 0.08[ d5-[0.00; 0.02[ d8-[0.00; 0.01[    122967 objects
-
-C
-Dimensions: [3, 4, 5, 8]
-Coverage: 80992
-Units: 
-   d3-[0.00; 0.01[ d4-[0.00; 0.08[ d5-[0.00; 0.02[ d8-[0.99; 1.00[    80992 objects
-
-C
-Dimensions: [9]
-Coverage: 13054
-Units: 
-   d9-[9.98; 10.06[    13054 objects
-
-C
-Dimensions: [3, 4, 5, 8]
-Coverage: 18196
-Units: 
-   d3-[0.00; 0.01[ d4-[0.00; 0.08[ d5-[0.00; 0.02[ d8-[1.99; 2.00[    18196 objects
-
-C
-Dimensions: [3, 4, 5, 8]
-Coverage: 19432
-Units: 
-   d3-[0.00; 0.01[ d4-[0.00; 0.08[ d5-[0.99; 1.01[ d8-[0.00; 0.01[    19432 objects
-
-C
-Dimensions: [3, 4, 5, 8]
-Coverage: 15237
-Units: 
-   d3-[0.00; 0.01[ d4-[0.00; 0.08[ d5-[0.99; 1.01[ d8-[0.99; 1.00[    15237 objects
-
-C
-Dimensions: [3, 4, 5, 8]
-Coverage: 9137
-Units: 
-   d3-[0.00; 0.01[ d4-[0.00; 0.08[ d5-[2.00; 2.01[ d8-[0.00; 0.01[    9137 objects
-
-C
-Dimensions: [3, 4, 5, 8]
-Coverage: 96332
-Units: 
-   d3-[0.00; 0.01[ d4-[0.93; 1.02[ d5-[0.00; 0.02[ d8-[0.00; 0.01[    96332 objects
-
-C
-Dimensions: [3, 4, 5, 8]
-Coverage: 45107
-Units: 
-   d3-[0.00; 0.01[ d4-[0.93; 1.02[ d5-[0.00; 0.02[ d8-[0.99; 1.00[    45107 objects
-
-C
-Dimensions: [3, 4, 5, 8]
-Coverage: 15830
-Units: 
-   d3-[0.00; 0.01[ d4-[0.93; 1.02[ d5-[0.99; 1.01[ d8-[0.00; 0.01[    15830 objects
-
-C
-Dimensions: [3, 4, 5, 8]
-Coverage: 16516
-Units: 
-   d3-[0.00; 0.01[ d4-[1.95; 2.04[ d5-[0.00; 0.02[ d8-[0.00; 0.01[    16516 objects
-
-C
-Dimensions: [3, 4, 5, 8]
-Coverage: 17936
-Units: 
-   d3-[0.00; 0.01[ d4-[1.95; 2.04[ d5-[0.00; 0.02[ d8-[0.99; 1.00[    17936 objects
-
-C
-Dimensions: [3, 4, 5, 8]
-Coverage: 59886
-Units: 
-   d3-[0.99; 1.00[ d4-[0.00; 0.08[ d5-[0.00; 0.02[ d8-[0.00; 0.01[    59886 objects
-
-C
-Dimensions: [9]
-Coverage: 12791
-Units: 
-   d9-[10.93; 11.01[    12791 objects
-
-C
-Dimensions: [3, 4, 5, 8]
-Coverage: 81990
-Units: 
-   d3-[0.99; 1.00[ d4-[0.00; 0.08[ d5-[0.00; 0.02[ d8-[0.99; 1.00[    81990 objects
-
-C
-Dimensions: [3, 4, 5, 8]
-Coverage: 15837
-Units: 
-   d3-[0.99; 1.00[ d4-[0.00; 0.08[ d5-[0.00; 0.02[ d8-[1.99; 2.00[    15837 objects
-
-C
-Dimensions: [3, 4, 5, 8]
-Coverage: 11619
-Units: 
-   d3-[0.99; 1.00[ d4-[0.00; 0.08[ d5-[0.99; 1.01[ d8-[0.00; 0.01[    11619 objects
-
-C
-Dimensions: [3, 4, 5, 8]
-Coverage: 21433
-Units: 
-   d3-[0.99; 1.00[ d4-[0.00; 0.08[ d5-[0.99; 1.01[ d8-[0.99; 1.00[    21433 objects
-
-C
-Dimensions: [9]
-Coverage: 12462
-Units: 
-   d9-[11.95; 12.03[    12462 objects
-
-C
-Dimensions: [9]
-Coverage: 8936
-Units: 
-   d9-[12.97; 13.05[    8936 objects
-
-C
-Dimensions: [9]
-Coverage: 8762
-Units: 
-   d9-[13.99; 14.07[    8762 objects
-
-C
-Dimensions: [4]
-Coverage: 508076
-Units: 
-   d4-[0.00; 0.08[    508076 objects
-
-C
-Dimensions: [4]
-Coverage: 200120
-Units: 
-   d4-[0.93; 1.02[    200120 objects
-
-C
-Dimensions: [4]
-Coverage: 63842
-Units: 
-   d4-[1.95; 2.04[    63842 objects
-
-C
-Dimensions: [4]
-Coverage: 8397
-Units: 
-   d4-[2.97; 3.06[    8397 objects
-
-C
-Dimensions: [8]
-Coverage: 59391
-Units: 
-   d8-[1.99; 2.00[    59391 objects
-
-C
-Dimensions: [3, 8]
-Coverage: 316236
-Units: 
-   d3-[0.00; 0.01[ d8-[0.00; 0.01[    316236 objects
-
-C
-Dimensions: [3, 8]
-Coverage: 213475
-Units: 
-   d3-[0.00; 0.01[ d8-[0.99; 1.00[    213475 objects
-
-C
-Dimensions: [3, 8]
-Coverage: 38195
-Units: 
-   d3-[0.00; 0.01[ d8-[1.99; 2.00[    38195 objects
-
-C
-Dimensions: [3, 8]
-Coverage: 89883
-Units: 
-   d3-[0.99; 1.00[ d8-[0.00; 0.01[    89883 objects
-
-C
-Dimensions: [3, 8]
-Coverage: 127948
-Units: 
-   d3-[0.99; 1.00[ d8-[0.99; 1.00[    127948 objects
-
-C
-Dimensions: [3, 8]
-Coverage: 21182
-Units: 
-   d3-[0.99; 1.00[ d8-[1.99; 2.00[    21182 objects
+   d3-[0.00; 0.01[    391345 objects
 
 C
 Dimensions: [3, 5]
-Coverage: 426086
+Coverage: 51459
 Units: 
-   d3-[0.00; 0.01[ d5-[0.00; 0.02[    426086 objects
+   d3-[0.00; 0.01[ d5-[0.99; 1.01[    51459 objects
 
 C
 Dimensions: [3, 5]
-Coverage: 85033
+Coverage: 98650
 Units: 
-   d3-[0.00; 0.01[ d5-[0.99; 1.01[    85033 objects
-
-C
-Dimensions: [3, 5]
-Coverage: 26125
-Units: 
-   d3-[0.00; 0.01[ d5-[2.00; 2.01[    26125 objects
-
-C
-Dimensions: [3, 5]
-Coverage: 22918
-Units: 
-   d3-[0.00; 0.01[ d5-[2.99; 3.00[    22918 objects
-
-C
-Dimensions: [5]
-Coverage: 599594
-Units: 
-   d5-[0.00; 0.02[    599594 objects
-
-C
-Dimensions: [3, 5]
-Coverage: 171610
-Units: 
-   d3-[0.99; 1.00[ d5-[0.00; 0.02[    171610 objects
-
-C
-Dimensions: [3, 5]
-Coverage: 39205
-Units: 
-   d3-[0.99; 1.00[ d5-[0.99; 1.01[    39205 objects
-
-C
-Dimensions: [3, 5]
-Coverage: 14194
-Units: 
-   d3-[0.99; 1.00[ d5-[2.00; 2.01[    14194 objects
-
-C
-Dimensions: [3, 5]
-Coverage: 10924
-Units: 
-   d3-[0.99; 1.00[ d5-[2.99; 3.00[    10924 objects
+   d3-[0.99; 1.00[ d5-[0.00; 0.02[    98650 objects
 
 C
 Dimensions: [5, 8]
-Coverage: 310899
+Coverage: 227909
 Units: 
-   d5-[0.00; 0.02[ d8-[0.00; 0.01[    310899 objects
+   d5-[0.00; 0.02[ d8-[0.00; 0.01[    227909 objects
 
 C
 Dimensions: [5, 8]
-Coverage: 244284
+Coverage: 141314
 Units: 
-   d5-[0.00; 0.02[ d8-[0.99; 1.00[    244284 objects
+   d5-[0.00; 0.02[ d8-[0.99; 1.00[    141314 objects
 
 C
 Dimensions: [5, 8]
-Coverage: 44411
+Coverage: 34891
 Units: 
-   d5-[0.00; 0.02[ d8-[1.99; 2.00[    44411 objects
+   d5-[0.00; 0.02[ d8-[1.99; 2.00[    34891 objects
 
 C
 Dimensions: [5, 8]
-Coverage: 56134
+Coverage: 35972
 Units: 
-   d5-[0.99; 1.01[ d8-[0.00; 0.01[    56134 objects
-
-C
-Dimensions: [5, 8]
-Coverage: 59705
-Units: 
-   d5-[0.99; 1.01[ d8-[0.99; 1.00[    59705 objects
-
-C
-Dimensions: [5, 8]
-Coverage: 8692
-Units: 
-   d5-[0.99; 1.01[ d8-[1.99; 2.00[    8692 objects
-
-C
-Dimensions: [5]
-Coverage: 124531
-Units: 
-   d5-[0.99; 1.01[    124531 objects
-
-C
-Dimensions: [5, 8]
-Coverage: 20418
-Units: 
-   d5-[2.00; 2.01[ d8-[0.00; 0.01[    20418 objects
-
-C
-Dimensions: [5, 8]
-Coverage: 16580
-Units: 
-   d5-[2.00; 2.01[ d8-[0.99; 1.00[    16580 objects
-
-C
-Dimensions: [5, 8]
-Coverage: 14414
-Units: 
-   d5-[2.99; 3.00[ d8-[0.00; 0.01[    14414 objects
-
-C
-Dimensions: [5, 8]
-Coverage: 17577
-Units: 
-   d5-[2.99; 3.00[ d8-[0.99; 1.00[    17577 objects
-
-C
-Dimensions: [4, 8]
-Coverage: 238776
-Units: 
-   d4-[0.00; 0.08[ d8-[0.00; 0.01[    238776 objects
-
-C
-Dimensions: [4, 8]
-Coverage: 224338
-Units: 
-   d4-[0.00; 0.08[ d8-[0.99; 1.00[    224338 objects
-
-C
-Dimensions: [4, 8]
-Coverage: 44962
-Units: 
-   d4-[0.00; 0.08[ d8-[1.99; 2.00[    44962 objects
-
-C
-Dimensions: [4, 8]
-Coverage: 128247
-Units: 
-   d4-[0.93; 1.02[ d8-[0.00; 0.01[    128247 objects
-
-C
-Dimensions: [4, 8]
-Coverage: 62728
-Units: 
-   d4-[0.93; 1.02[ d8-[0.99; 1.00[    62728 objects
-
-C
-Dimensions: [4, 8]
-Coverage: 9145
-Units: 
-   d4-[0.93; 1.02[ d8-[1.99; 2.00[    9145 objects
-
-C
-Dimensions: [5]
-Coverage: 40399
-Units: 
-   d5-[2.00; 2.01[    40399 objects
-
-C
-Dimensions: [4, 8]
-Coverage: 26727
-Units: 
-   d4-[1.95; 2.04[ d8-[0.00; 0.01[    26727 objects
-
-C
-Dimensions: [4, 8]
-Coverage: 34083
-Units: 
-   d4-[1.95; 2.04[ d8-[0.99; 1.00[    34083 objects
-
-C
-Dimensions: [3, 4]
-Coverage: 289098
-Units: 
-   d3-[0.00; 0.01[ d4-[0.00; 0.08[    289098 objects
-
-C
-Dimensions: [3, 4]
-Coverage: 187260
-Units: 
-   d3-[0.00; 0.01[ d4-[0.93; 1.02[    187260 objects
-
-C
-Dimensions: [3, 4]
-Coverage: 59704
-Units: 
-   d3-[0.00; 0.01[ d4-[1.95; 2.04[    59704 objects
-
-C
-Dimensions: [3, 4]
-Coverage: 218978
-Units: 
-   d3-[0.99; 1.00[ d4-[0.00; 0.08[    218978 objects
-
-C
-Dimensions: [3, 4]
-Coverage: 10785
-Units: 
-   d3-[0.99; 1.00[ d4-[0.93; 1.02[    10785 objects
-
-C
-Dimensions: [3, 9]
-Coverage: 186809
-Units: 
-   d3-[0.00; 0.01[ d9-[0.00; 0.08[    186809 objects
-
-C
-Dimensions: [3, 9]
-Coverage: 120279
-Units: 
-   d3-[0.00; 0.01[ d9-[0.94; 1.02[    120279 objects
-
-C
-Dimensions: [3, 9]
-Coverage: 40203
-Units: 
-   d3-[0.00; 0.01[ d9-[1.97; 2.04[    40203 objects
-
-C
-Dimensions: [5]
-Coverage: 33982
-Units: 
-   d5-[2.99; 3.00[    33982 objects
-
-C
-Dimensions: [3, 9]
-Coverage: 36839
-Units: 
-   d3-[0.00; 0.01[ d9-[2.99; 3.07[    36839 objects
-
-C
-Dimensions: [3, 9]
-Coverage: 38584
-Units: 
-   d3-[0.00; 0.01[ d9-[3.93; 4.01[    38584 objects
-
-C
-Dimensions: [3, 9]
-Coverage: 33415
-Units: 
-   d3-[0.00; 0.01[ d9-[4.95; 5.03[    33415 objects
-
-C
-Dimensions: [3, 9]
-Coverage: 16767
-Units: 
-   d3-[0.00; 0.01[ d9-[5.97; 6.05[    16767 objects
-
-C
-Dimensions: [3, 9]
-Coverage: 12940
-Units: 
-   d3-[0.00; 0.01[ d9-[7.00; 7.08[    12940 objects
-
-C
-Dimensions: [3, 9]
-Coverage: 10833
-Units: 
-   d3-[0.00; 0.01[ d9-[7.94; 8.02[    10833 objects
-
-C
-Dimensions: [3, 9]
-Coverage: 9119
-Units: 
-   d3-[0.00; 0.01[ d9-[8.96; 9.04[    9119 objects
-
-C
-Dimensions: [3, 9]
-Coverage: 9497
-Units: 
-   d3-[0.00; 0.01[ d9-[9.98; 10.06[    9497 objects
-
-C
-Dimensions: [3, 9]
-Coverage: 11032
-Units: 
-   d3-[0.00; 0.01[ d9-[10.93; 11.01[    11032 objects
-
-C
-Dimensions: [3, 9]
-Coverage: 9905
-Units: 
-   d3-[0.00; 0.01[ d9-[11.95; 12.03[    9905 objects
-
-C
-Dimensions: [5]
-Coverage: 8961
-Units: 
-   d5-[3.99; 4.01[    8961 objects
-
-C
-Dimensions: [3, 9]
-Coverage: 8292
-Units: 
-   d3-[0.00; 0.01[ d9-[13.99; 14.07[    8292 objects
-
-C
-Dimensions: [3, 9]
-Coverage: 76583
-Units: 
-   d3-[0.99; 1.00[ d9-[0.00; 0.08[    76583 objects
-
-C
-Dimensions: [3, 9]
-Coverage: 42874
-Units: 
-   d3-[0.99; 1.00[ d9-[0.94; 1.02[    42874 objects
-
-C
-Dimensions: [3, 9]
-Coverage: 20586
-Units: 
-   d3-[0.99; 1.00[ d9-[1.97; 2.04[    20586 objects
-
-C
-Dimensions: [3, 9]
-Coverage: 18291
-Units: 
-   d3-[0.99; 1.00[ d9-[2.99; 3.07[    18291 objects
-
-C
-Dimensions: [3, 9]
-Coverage: 16031
-Units: 
-   d3-[0.99; 1.00[ d9-[3.93; 4.01[    16031 objects
-
-C
-Dimensions: [3, 9]
-Coverage: 18856
-Units: 
-   d3-[0.99; 1.00[ d9-[4.95; 5.03[    18856 objects
-
-C
-Dimensions: [3, 9]
-Coverage: 10236
-Units: 
-   d3-[0.99; 1.00[ d9-[5.97; 6.05[    10236 objects
+   d5-[0.99; 1.01[ d8-[0.00; 0.01[    35972 objects
 
 C
 Dimensions: [4, 5]
-Coverage: 379868
+Coverage: 252604
 Units: 
-   d4-[0.00; 0.08[ d5-[0.00; 0.02[    379868 objects
+   d4-[0.00; 0.07[ d5-[0.00; 0.02[    252604 objects
 
 C
 Dimensions: [4, 5]
-Coverage: 73907
+Coverage: 39155
 Units: 
-   d4-[0.00; 0.08[ d5-[0.99; 1.01[    73907 objects
+   d4-[0.00; 0.07[ d5-[0.99; 1.01[    39155 objects
+
+C
+Dimensions: [4, 5]
+Coverage: 113900
+Units: 
+   d4-[0.97; 1.04[ d5-[0.00; 0.02[    113900 objects
+
+C
+Dimensions: [2, 3]
+Coverage: 123775
+Units: 
+   d2-[0.00; 0.17[ d3-[0.00; 0.01[    123775 objects
 
 C
 Dimensions: [3]
-Coverage: 567906
+Coverage: 130741
 Units: 
-   d3-[0.00; 0.01[    567906 objects
+   d3-[0.99; 1.00[    130741 objects
 
 C
-Dimensions: [4, 5]
-Coverage: 27887
+Dimensions: [2, 3]
+Coverage: 76982
 Units: 
-   d4-[0.00; 0.08[ d5-[2.00; 2.01[    27887 objects
+   d2-[0.00; 0.17[ d3-[0.99; 1.00[    76982 objects
 
 C
-Dimensions: [4, 5]
-Coverage: 19430
+Dimensions: [2, 3]
+Coverage: 63895
 Units: 
-   d4-[0.00; 0.08[ d5-[2.99; 3.00[    19430 objects
+   d2-[0.86; 1.04[ d3-[0.00; 0.01[    63895 objects
 
 C
-Dimensions: [4, 5]
-Coverage: 157540
+Dimensions: [2, 3]
+Coverage: 29765
 Units: 
-   d4-[0.93; 1.02[ d5-[0.00; 0.02[    157540 objects
+   d2-[1.90; 2.08[ d3-[0.00; 0.01[    29765 objects
 
 C
-Dimensions: [4, 5]
-Coverage: 26394
+Dimensions: [2, 3]
+Coverage: 32390
 Units: 
-   d4-[0.93; 1.02[ d5-[0.99; 1.01[    26394 objects
+   d2-[3.98; 4.15[ d3-[0.00; 0.01[    32390 objects
 
 C
-Dimensions: [4, 5]
-Coverage: 38689
+Dimensions: [2, 3]
+Coverage: 26906
 Units: 
-   d4-[1.95; 2.04[ d5-[0.00; 0.02[    38689 objects
+   d2-[4.84; 5.02[ d3-[0.00; 0.01[    26906 objects
 
 C
-Dimensions: [4, 5]
-Coverage: 15223
+Dimensions: [3, 4, 8]
+Coverage: 121121
 Units: 
-   d4-[1.95; 2.04[ d5-[0.99; 1.01[    15223 objects
+   d3-[0.00; 0.01[ d4-[0.00; 0.07[ d8-[0.00; 0.01[    121121 objects
 
 C
-Dimensions: [8, 9]
-Coverage: 158979
+Dimensions: [3, 4, 8]
+Coverage: 67647
 Units: 
-   d8-[0.00; 0.01[ d9-[0.00; 0.08[    158979 objects
+   d3-[0.00; 0.01[ d4-[0.00; 0.07[ d8-[0.99; 1.00[    67647 objects
 
 C
-Dimensions: [8, 9]
-Coverage: 90830
+Dimensions: [3, 4, 8]
+Coverage: 85553
 Units: 
-   d8-[0.00; 0.01[ d9-[0.94; 1.02[    90830 objects
+   d3-[0.00; 0.01[ d4-[0.97; 1.04[ d8-[0.00; 0.01[    85553 objects
 
 C
-Dimensions: [8, 9]
-Coverage: 24703
+Dimensions: [3, 4, 8]
+Coverage: 40263
 Units: 
-   d8-[0.00; 0.01[ d9-[1.97; 2.04[    24703 objects
+   d3-[0.00; 0.01[ d4-[0.97; 1.04[ d8-[0.99; 1.00[    40263 objects
 
 C
-Dimensions: [8, 9]
-Coverage: 25424
+Dimensions: [3, 4, 8]
+Coverage: 52202
 Units: 
-   d8-[0.00; 0.01[ d9-[2.99; 3.07[    25424 objects
+   d3-[0.99; 1.00[ d4-[0.00; 0.07[ d8-[0.00; 0.01[    52202 objects
+
+C
+Dimensions: [4]
+Coverage: 324052
+Units: 
+   d4-[0.00; 0.07[    324052 objects
+
+C
+Dimensions: [3, 4, 8]
+Coverage: 47461
+Units: 
+   d3-[0.99; 1.00[ d4-[0.00; 0.07[ d8-[0.99; 1.00[    47461 objects
+
+C
+Dimensions: [3, 5, 8]
+Coverage: 180588
+Units: 
+   d3-[0.00; 0.01[ d5-[0.00; 0.02[ d8-[0.00; 0.01[    180588 objects
+
+C
+Dimensions: [3, 5, 8]
+Coverage: 100230
+Units: 
+   d3-[0.00; 0.01[ d5-[0.00; 0.02[ d8-[0.99; 1.00[    100230 objects
+
+C
+Dimensions: [3, 5, 8]
+Coverage: 28950
+Units: 
+   d3-[0.00; 0.01[ d5-[0.99; 1.01[ d8-[0.00; 0.01[    28950 objects
+
+C
+Dimensions: [3, 5, 8]
+Coverage: 46272
+Units: 
+   d3-[0.99; 1.00[ d5-[0.00; 0.02[ d8-[0.00; 0.01[    46272 objects
+
+C
+Dimensions: [3, 5, 8]
+Coverage: 40238
+Units: 
+   d3-[0.99; 1.00[ d5-[0.00; 0.02[ d8-[0.99; 1.00[    40238 objects
+
+C
+Dimensions: [4]
+Coverage: 144401
+Units: 
+   d4-[0.97; 1.04[    144401 objects
+
+C
+Dimensions: [4]
+Coverage: 36653
+Units: 
+   d4-[1.94; 2.01[    36653 objects
+
+C
+Dimensions: [5]
+Coverage: 404114
+Units: 
+   d5-[0.00; 0.02[    404114 objects
+
+nclusters: Int = 65
+size_cl: Int = 6814669
