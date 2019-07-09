@@ -1,0 +1,179 @@
+F
+Dimensions: [5]
+Coverage: 407440
+Units: 
+   d5-[0.00; 0.01[    407440 objects
+
+F
+Dimensions: [6]
+Coverage: 60797
+Units: 
+   d6-[1.88; 2.00[    60797 objects
+
+F
+Dimensions: [6]
+Coverage: 55130
+Units: 
+   d6-[2.88; 3.00[    55130 objects
+
+F
+Dimensions: [6]
+Coverage: 54839
+Units: 
+   d6-[3.88; 4.00[    54839 objects
+
+F
+Dimensions: [6]
+Coverage: 52309
+Units: 
+   d6-[4.88; 5.00[    52309 objects
+
+F
+Dimensions: [1, 5]
+Coverage: 316236
+Units: 
+   d1-[0.00; 0.02[ d5-[0.00; 0.01[    316236 objects
+
+F
+Dimensions: [1, 5]
+Coverage: 213475
+Units: 
+   d1-[0.00; 0.02[ d5-[0.99; 1.00[    213475 objects
+
+F
+Dimensions: [1, 5]
+Coverage: 89883
+Units: 
+   d1-[0.99; 1.01[ d5-[0.00; 0.01[    89883 objects
+
+F
+Dimensions: [1, 5]
+Coverage: 127948
+Units: 
+   d1-[0.99; 1.01[ d5-[0.99; 1.00[    127948 objects
+
+F
+Dimensions: [2, 5]
+Coverage: 310899
+Units: 
+   d2-[0.00; 0.03[ d5-[0.00; 0.01[    310899 objects
+
+F
+Dimensions: [2, 5]
+Coverage: 244284
+Units: 
+   d2-[0.00; 0.03[ d5-[0.99; 1.00[    244284 objects
+
+F
+Dimensions: [5]
+Coverage: 342499
+Units: 
+   d5-[0.99; 1.00[    342499 objects
+
+F
+Dimensions: [2, 5]
+Coverage: 44411
+Units: 
+   d2-[0.00; 0.03[ d5-[1.99; 2.00[    44411 objects
+
+F
+Dimensions: [2, 5]
+Coverage: 56134
+Units: 
+   d2-[0.98; 1.00[ d5-[0.00; 0.01[    56134 objects
+
+F
+Dimensions: [2, 5]
+Coverage: 59705
+Units: 
+   d2-[0.98; 1.00[ d5-[0.99; 1.00[    59705 objects
+
+F
+Dimensions: [1, 2]
+Coverage: 426086
+Units: 
+   d1-[0.00; 0.02[ d2-[0.00; 0.03[    426086 objects
+
+F
+Dimensions: [1, 2]
+Coverage: 85033
+Units: 
+   d1-[0.00; 0.02[ d2-[0.98; 1.00[    85033 objects
+
+F
+Dimensions: [1, 2]
+Coverage: 171610
+Units: 
+   d1-[0.99; 1.01[ d2-[0.00; 0.03[    171610 objects
+
+F
+Dimensions: [1, 2, 5]
+Coverage: 242956
+Units: 
+   d1-[0.00; 0.02[ d2-[0.00; 0.03[ d5-[0.00; 0.01[    242956 objects
+
+F
+Dimensions: [1, 2, 5]
+Coverage: 154615
+Units: 
+   d1-[0.00; 0.02[ d2-[0.00; 0.03[ d5-[0.99; 1.00[    154615 objects
+
+F
+Dimensions: [1, 2, 5]
+Coverage: 43098
+Units: 
+   d1-[0.00; 0.02[ d2-[0.98; 1.00[ d5-[0.00; 0.01[    43098 objects
+
+F
+Dimensions: [1, 2, 5]
+Coverage: 66894
+Units: 
+   d1-[0.99; 1.01[ d2-[0.00; 0.03[ d5-[0.00; 0.01[    66894 objects
+
+F
+Dimensions: [5]
+Coverage: 59391
+Units: 
+   d5-[1.99; 2.00[    59391 objects
+
+F
+Dimensions: [1, 2, 5]
+Coverage: 88823
+Units: 
+   d1-[0.99; 1.01[ d2-[0.00; 0.03[ d5-[0.99; 1.00[    88823 objects
+
+F
+Dimensions: [1]
+Coverage: 567906
+Units: 
+   d1-[0.00; 0.02[    567906 objects
+
+F
+Dimensions: [1]
+Coverage: 239013
+Units: 
+   d1-[0.99; 1.01[    239013 objects
+
+F
+Dimensions: [2]
+Coverage: 599594
+Units: 
+   d2-[0.00; 0.03[    599594 objects
+
+F
+Dimensions: [2]
+Coverage: 124531
+Units: 
+   d2-[0.98; 1.00[    124531 objects
+
+F
+Dimensions: [6]
+Coverage: 264709
+Units: 
+   d6-[0.00; 0.13[    264709 objects
+
+F
+Dimensions: [6]
+Coverage: 163845
+Units: 
+   d6-[0.88; 1.00[    163845 objects
